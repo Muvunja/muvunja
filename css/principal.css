@@ -1,0 +1,125 @@
+
+/*Corpo da Pagina Principal*/
+
+body{
+	background-image: url(../imagens/capa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*Cabeçalho da Pagina Principal*/
+
+header{
+
+	background: skyblue;
+}
+
+/*Introdução da Imagem no cabeçalho*/
+.logo img {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/*Edição do Menu*/
+.navbar{
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+}
+
+.logo{
+	font-size: 2rem;
+	font-weight: bold;
+}
+.menu{
+display: flex;
+align-items: center;	
+gap: 60px;
+font-weight: bold;
+font-size: 1rem;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: blueviolet;
+	width:50%;
+	height: 50%;
+	color: white;
+	margin: auto;
+	
+}
+.center{
+	
+}
+/*Rodape onde so aparecem as redes sociais*/
+
+footer{
+	display: flex;
+	justify-content: space-around;	
+	position: absolute;
+	bottom: 0;
+	width: 100%;	
+	}
+/*Ediçaõ dos Icones das Redes Sociais*/
+.redes-sociais ul{
+	display: flex;
+	list-style: none;
+}
+
+.redes-sociais ul a{
+	display: block;
+	padding: 10px;
+}
+ .redes-sociais ul li a img{
+ 	max-width: 100px;
+
+ }
+ /*Pagina de CONTACTOS*/
+
+ .sobre-mim .container{
+ 	display: flex;
+ 	 	padding: 30px;
+ }
+
+ .sobre-mim .sobre-mim-text{
+ 	padding:40px;
+ 	width: 10%;
+ 	background: white;
+ 	 }
+ .sobre-mim-text img{
+
+ 	width: 20px;
+ 	height: 20px;
+ }
+ .sobre-mim-img img{
+ 	width: 300px;
+ 	height: 500px;
+ 	
+ }
+ .sobre-mim{
+ 	background: skyblue;
+  	justify-content: space-around;	
+ }
+
+/*Pagina Sobre MimSobre Mim*/
+
+.sobre .img img{
+width: 500px;
+ 	height: 500px;
+ 	border-radius: 500px;
+}
